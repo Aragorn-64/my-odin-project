@@ -1,0 +1,208 @@
+body{
+    /* background: #1F2937; */
+    padding: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hero{
+    background: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 1% 10%;
+}
+.navbar{ 
+    margin: 0;
+    width: 100%;
+    /* height: min-content; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo{
+    /* margin-left: 5%; */
+}
+
+.logo p{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;  
+    width: 40%; 
+    /* width: max-content; */
+    justify-content: space-between;
+    /* margin-right: 5%; */
+}
+
+.hero-sec, 
+.nav-item a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.nav-item a{
+    text-decoration: none;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    height: 30%;
+    margin-bottom: 4%;
+}
+
+.hero-left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+}
+
+.hero-main{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.hero-main p{
+    padding: 0;
+    margin: 0;
+}
+
+.hero-sec{
+    /* height: 60%; */
+    /* Why isnt this working? */
+}
+
+button.btn{
+    background: #3882F6;
+    border: none;
+    padding: 2% 5%;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #F9FAF8;
+}
+
+.hero-img{
+    width: 50%;
+}
+
+.hero-img img{
+    width: 100%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 0; 
+}
+
+.info-heading{
+    margin-top: 2%;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.info-cards-list{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.info-card{
+    width: 15%;
+    align-items: center;
+    /* height: 50%; */
+}
+
+.blue-border{
+    border: #3882F6 solid 4px;
+    border-radius: 15px;
+    width: auto;
+    /* height: 50%; */
+    padding-top: 90%;
+    position: relative;   
+}
+
+.card-text{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.quote{
+    background: #E5E7EB;
+    padding: 5% 20%;
+}
+
+.quote-text{
+    font-style: italic;
+    font-size: 36px;
+    font-weight:lighter;
+    margin-bottom: 1%;
+}
+
+.quote-author{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
+}
+
+.action-section{
+    padding: 5% 15%;
+}
+
+.call-for-action{
+    background: #3882F6;
+    border: none;
+    border-radius: 5px;
+    padding: 5% 8%;
+    display: flex;
+    flex-direction: row;
+}
+
+.call-header{
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.call-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.call-button-container{
+    width: 40%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-button{
+    background: transparent;
+    border: white solid 2px;
+    padding: 5% 15%;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+.footer{
+    background: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 0;
+    color: #F9FAF8;
+}
